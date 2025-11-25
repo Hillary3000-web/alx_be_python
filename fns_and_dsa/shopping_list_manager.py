@@ -9,10 +9,10 @@ def display_menu():
     print("="*30)
 
 def add_item(shopping_list):
-    item = input("Enter the item name: ").strip()
+    item = input("Enter item name: ")
     if item:
         shopping_list.append(item)
-        print(f"'{item}' has been added to the shopping list.")
+        print(f"'{item}' added to the shopping list.")
     else:
         print("Item name cannot be empty.")
 
